@@ -1,0 +1,23 @@
+{
+  "logistic_regression": {
+    "threshold": 0.651248564401401,
+    "cv_roc_auc": 0.76,
+    "test": {
+      "precision": 0.587,
+      "recall": 0.468,
+      "f1": 0.521,
+      "roc_auc": 0.681
+    }
+  },
+  "random_forest": {
+    "threshold": 0.5705306634805132,
+    "cv_roc_auc": 0.776,
+    "test": {
+      "precision": 0.623,
+      "recall": 0.511,
+      "f1": 0.561,
+      "roc_auc": 0.725
+    }
+  },
+  "chosen_model": "random_forest"
+}
