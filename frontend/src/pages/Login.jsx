@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 
 import AuthLayout from '../components/AuthLayout.jsx'
 import { useAuth } from '../context/AuthContext.jsx'
 import { loginUser } from '../api/auth.js'
-import { getErrorMessage } from '../api/client.js'
+import client, { getErrorMessage } from '../api/client.js'
 
 const DEMO_ACCOUNTS = [
   { email: 'customer@demo.com', role: 'Policyholder', icon: 'bi-person' },
@@ -21,6 +21,19 @@ function Login() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [serverWaking, setServerWaking] = useState(false)
+
+  useEffect(() => {
+    const timer = setTimeout(() => setServerWaking(true), 3000)
+    client
+      .get('/api/health')
+      .catch(() => {})
+      .finally(() => {
+        clearTimeout(timer)
+        setServerWaking(false)
+      })
+    return () => clearTimeout(timer)
+  }, [])
 
   if (user) {
     return <Navigate to="/" replace />
@@ -55,6 +68,13 @@ function Login() {
     <AuthLayout>
       <h2 className="fw-bold mb-1">Welcome back</h2>
       <p className="text-muted mb-4">Sign in to continue to ClaimGuard</p>
+
+      {serverWaking && (
+        <div className="alert alert-info d-flex gap-2 align-items-center small">
+          <span className="spinner-border spinner-border-sm"></span>
+          The server is waking up (free hosting sleeps when idle). This can take up to a minute.
+        </div>
+      )}
 
       {error && (
         <div className="alert alert-danger d-flex gap-2 align-items-center">
