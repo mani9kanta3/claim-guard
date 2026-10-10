@@ -229,9 +229,14 @@ frontend/
 - No real payments: settlement is a recorded entry.
 - No database migrations tool: tables are created by `db.create_all()` in the seed script. Alembic would be added before production.
 
-## Deployment (planned)
+## Deployment
 
-- **Database:** Neon (PostgreSQL), Singapore region
-- **Backend:** Render, start command `gunicorn wsgi:app --workers 2 --timeout 60`
-- **Frontend:** Vercel, with `vercel.json` rewriting all routes to `index.html`
-- Set `DATABASE_URL`, `JWT_SECRET_KEY`, `SECRET_KEY`, `GROQ_API_KEY`, `GEMINI_API_KEY` and `FRONTEND_ORIGIN` on Render, and `VITE_API_URL` on Vercel.
+| Piece | Where | How |
+|---|---|---|
+| Database | Neon (PostgreSQL), Singapore | Tables and demo data are created by running `scripts.seed` against the Neon URL from a local machine |
+| Backend | Render (free), Singapore | `render.yaml` blueprint: `gunicorn wsgi:app --workers 1 --threads 4 --timeout 60`, health check `/api/health` |
+| Frontend | Vercel | Root folder `frontend`, `VITE_API_URL` set to the Render URL, `vercel.json` sends every route to `index.html` |
+
+- One worker with 4 threads, because the free plan has 512 MB of memory and each worker loads pandas, scikit-learn and the model.
+- `FRONTEND_ORIGIN` accepts a comma-separated list, so CORS can allow both the Vercel URL and localhost.
+- Render's free tier sleeps after 15 minutes without traffic, so the first request can take about 50 seconds. The login page shows a "server is waking up" message while that happens.
