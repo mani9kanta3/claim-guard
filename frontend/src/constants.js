@@ -1,0 +1,23 @@
+export const DIAGNOSIS_CATEGORIES = [
+  'FEVER',
+  'FRACTURE',
+  'CARDIAC',
+  'MATERNITY',
+  'SURGERY_MINOR',
+  'SURGERY_MAJOR',
+  'RESPIRATORY',
+  'OTHER',
+]
+
+export const CLAIM_STATUSES = [
+  'SUBMITTED',
+  'UNDER_REVIEW',
+  'INVESTIGATION',
+  'APPROVED',
+  'REJECTED',
+  'SETTLED',
+]
+
+export const RISK_LEVELS = ['HIGH', 'MEDIUM', 'LOW']
+
+export const MAX_FILE_SIZE = 2 * 1024 * 1024
