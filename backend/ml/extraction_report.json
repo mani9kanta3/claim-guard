@@ -1,0 +1,16 @@
+{
+  "bills": 30,
+  "failed": 0,
+  "providers_used": {
+    "groq": 26,
+    "gemini": 4
+  },
+  "field_accuracy": {
+    "patient_name": 1.0,
+    "hospital_name": 1.0,
+    "admission_date": 1.0,
+    "discharge_date": 1.0,
+    "total_amount": 1.0
+  },
+  "overall_accuracy": 1.0
+}
