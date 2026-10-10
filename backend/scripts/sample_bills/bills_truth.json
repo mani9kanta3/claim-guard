@@ -1,0 +1,858 @@
+{
+  "bill_01.pdf": {
+    "patient_name": "Vikram Singh",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-08-08",
+    "discharge_date": "2026-08-12",
+    "diagnosis": "Kidney stone",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 6250.63
+      },
+      {
+        "description": "Room charges",
+        "amount": 10199.53
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 11623.13
+      }
+    ],
+    "total_amount": 28073.29,
+    "layout": "plain"
+  },
+  "bill_02.pdf": {
+    "patient_name": "Vikram Singh",
+    "hospital_name": "Sunrise Multispeciality Hospital",
+    "city": "Hyderabad",
+    "admission_date": "2026-05-18",
+    "discharge_date": "2026-05-24",
+    "diagnosis": "Acute myocardial infarction",
+    "line_items": [
+      {
+        "description": "Room charges",
+        "amount": 102422.62
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 77896.95
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 74870.26
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 38727.5
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 14695.87
+      }
+    ],
+    "total_amount": 308613.2,
+    "layout": "gst"
+  },
+  "bill_03.pdf": {
+    "patient_name": "Arjun Reddy",
+    "hospital_name": "City Care Clinic",
+    "city": "Bengaluru",
+    "admission_date": "2026-06-03",
+    "discharge_date": "2026-06-04",
+    "diagnosis": "Caesarean section delivery",
+    "line_items": [
+      {
+        "description": "Room charges",
+        "amount": 36472.85
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 20860.86
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 22373.15
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 24760.73
+      }
+    ],
+    "total_amount": 104467.59,
+    "layout": "table"
+  },
+  "bill_04.pdf": {
+    "patient_name": "Arjun Reddy",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-08-27",
+    "discharge_date": "2026-08-28",
+    "diagnosis": "Acute bronchitis",
+    "line_items": [
+      {
+        "description": "Room charges",
+        "amount": 25690.41
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 11022.94
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 27216.18
+      }
+    ],
+    "total_amount": 63929.53,
+    "layout": "plain"
+  },
+  "bill_05.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Sunrise Multispeciality Hospital",
+    "city": "Hyderabad",
+    "admission_date": "2026-09-03",
+    "discharge_date": "2026-09-04",
+    "diagnosis": "Pneumonia",
+    "line_items": [
+      {
+        "description": "Nursing charges",
+        "amount": 14298.18
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 32743.33
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 21150.91
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 3409.62
+      }
+    ],
+    "total_amount": 71602.04,
+    "layout": "gst"
+  },
+  "bill_06.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-03-28",
+    "discharge_date": "2026-03-29",
+    "diagnosis": "Normal delivery",
+    "line_items": [
+      {
+        "description": "Room charges",
+        "amount": 30641.39
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 12671.39
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 16276.25
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 12195.64
+      }
+    ],
+    "total_amount": 71784.67,
+    "layout": "table"
+  },
+  "bill_07.pdf": {
+    "patient_name": "Sneha Iyer",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-02-18",
+    "discharge_date": "2026-02-24",
+    "diagnosis": "Kidney stone",
+    "line_items": [
+      {
+        "description": "Procedure charges",
+        "amount": 6800.58
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 6905.86
+      },
+      {
+        "description": "Room charges",
+        "amount": 12550.51
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 3165.68
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 11358.25
+      }
+    ],
+    "total_amount": 40780.88,
+    "layout": "plain"
+  },
+  "bill_08.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Sunrise Multispeciality Hospital",
+    "city": "Hyderabad",
+    "admission_date": "2026-02-07",
+    "discharge_date": "2026-02-09",
+    "diagnosis": "Fracture of right radius",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 18387.67
+      },
+      {
+        "description": "Room charges",
+        "amount": 17481.72
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 11292.43
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 11756.61
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 25433.55
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 4217.6
+      }
+    ],
+    "total_amount": 88569.58,
+    "layout": "gst"
+  },
+  "bill_09.pdf": {
+    "patient_name": "Priya Sharma",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-02-04",
+    "discharge_date": "2026-02-08",
+    "diagnosis": "Kidney stone",
+    "line_items": [
+      {
+        "description": "Nursing charges",
+        "amount": 6144.48
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 5696.07
+      },
+      {
+        "description": "Doctor consultation",
+        "amount": 2883.98
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 2588.58
+      }
+    ],
+    "total_amount": 17313.11,
+    "layout": "table"
+  },
+  "bill_10.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-01-21",
+    "discharge_date": "2026-01-25",
+    "diagnosis": "Gastroenteritis",
+    "line_items": [
+      {
+        "description": "Laboratory tests",
+        "amount": 4012.33
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 2792.17
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 5091.56
+      }
+    ],
+    "total_amount": 11896.06,
+    "layout": "plain"
+  },
+  "bill_11.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-05-14",
+    "discharge_date": "2026-05-16",
+    "diagnosis": "Food poisoning",
+    "line_items": [
+      {
+        "description": "Procedure charges",
+        "amount": 9558.03
+      },
+      {
+        "description": "Room charges",
+        "amount": 15189.6
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 20175.66
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 2246.16
+      }
+    ],
+    "total_amount": 47169.45,
+    "layout": "gst"
+  },
+  "bill_12.pdf": {
+    "patient_name": "Priya Sharma",
+    "hospital_name": "Sunrise Multispeciality Hospital",
+    "city": "Hyderabad",
+    "admission_date": "2026-01-18",
+    "discharge_date": "2026-01-21",
+    "diagnosis": "Normal delivery",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 16099.77
+      },
+      {
+        "description": "Room charges",
+        "amount": 26073.42
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 36626.67
+      }
+    ],
+    "total_amount": 78799.86,
+    "layout": "table"
+  },
+  "bill_13.pdf": {
+    "patient_name": "Vikram Singh",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-06-18",
+    "discharge_date": "2026-06-24",
+    "diagnosis": "Food poisoning",
+    "line_items": [
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 11631.46
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 15835.87
+      },
+      {
+        "description": "Room charges",
+        "amount": 10181.53
+      }
+    ],
+    "total_amount": 37648.86,
+    "layout": "plain"
+  },
+  "bill_14.pdf": {
+    "patient_name": "Priya Sharma",
+    "hospital_name": "Green Valley Hospital",
+    "city": "Chennai",
+    "admission_date": "2026-01-18",
+    "discharge_date": "2026-01-24",
+    "diagnosis": "Ankle fracture",
+    "line_items": [
+      {
+        "description": "Nursing charges",
+        "amount": 12246.09
+      },
+      {
+        "description": "Doctor consultation",
+        "amount": 26357.46
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 32079.25
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 3534.14
+      }
+    ],
+    "total_amount": 74216.94,
+    "layout": "gst"
+  },
+  "bill_15.pdf": {
+    "patient_name": "Sneha Iyer",
+    "hospital_name": "Green Valley Hospital",
+    "city": "Chennai",
+    "admission_date": "2026-08-19",
+    "discharge_date": "2026-08-20",
+    "diagnosis": "Fracture of left femur",
+    "line_items": [
+      {
+        "description": "Laboratory tests",
+        "amount": 53099.89
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 40203.66
+      },
+      {
+        "description": "Room charges",
+        "amount": 42517.59
+      }
+    ],
+    "total_amount": 135821.14,
+    "layout": "table"
+  },
+  "bill_16.pdf": {
+    "patient_name": "Arjun Reddy",
+    "hospital_name": "Sunrise Multispeciality Hospital",
+    "city": "Hyderabad",
+    "admission_date": "2026-01-24",
+    "discharge_date": "2026-01-30",
+    "diagnosis": "Fracture of left femur",
+    "line_items": [
+      {
+        "description": "Laboratory tests",
+        "amount": 14858.83
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 10102.91
+      },
+      {
+        "description": "Room charges",
+        "amount": 14954.45
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 12797.65
+      }
+    ],
+    "total_amount": 52713.84,
+    "layout": "plain"
+  },
+  "bill_17.pdf": {
+    "patient_name": "Priya Sharma",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-06-03",
+    "discharge_date": "2026-06-04",
+    "diagnosis": "Typhoid fever",
+    "line_items": [
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 3383.53
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 8441.65
+      },
+      {
+        "description": "Doctor consultation",
+        "amount": 7533.14
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 6215.0
+      },
+      {
+        "description": "Room charges",
+        "amount": 9324.83
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 1744.91
+      }
+    ],
+    "total_amount": 36643.06,
+    "layout": "gst"
+  },
+  "bill_18.pdf": {
+    "patient_name": "Priya Sharma",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-06-18",
+    "discharge_date": "2026-06-22",
+    "diagnosis": "Coronary artery disease",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 59144.52
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 46791.57
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 77528.04
+      },
+      {
+        "description": "Room charges",
+        "amount": 91113.63
+      }
+    ],
+    "total_amount": 274577.76,
+    "layout": "table"
+  },
+  "bill_19.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "City Care Clinic",
+    "city": "Bengaluru",
+    "admission_date": "2026-02-04",
+    "discharge_date": "2026-02-06",
+    "diagnosis": "Bypass surgery",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 31255.92
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 103304.54
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 90840.43
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 35084.77
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 63277.8
+      }
+    ],
+    "total_amount": 323763.46,
+    "layout": "plain"
+  },
+  "bill_20.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-04-26",
+    "discharge_date": "2026-04-29",
+    "diagnosis": "Knee replacement",
+    "line_items": [
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 57369.39
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 17827.86
+      },
+      {
+        "description": "Room charges",
+        "amount": 49559.54
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 42993.43
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 8387.51
+      }
+    ],
+    "total_amount": 176137.73,
+    "layout": "gst"
+  },
+  "bill_21.pdf": {
+    "patient_name": "Arjun Reddy",
+    "hospital_name": "Green Valley Hospital",
+    "city": "Chennai",
+    "admission_date": "2026-02-18",
+    "discharge_date": "2026-02-19",
+    "diagnosis": "Asthma attack",
+    "line_items": [
+      {
+        "description": "Room charges",
+        "amount": 21034.33
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 21366.94
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 24905.45
+      }
+    ],
+    "total_amount": 67306.72,
+    "layout": "table"
+  },
+  "bill_22.pdf": {
+    "patient_name": "Sneha Iyer",
+    "hospital_name": "Sunrise Multispeciality Hospital",
+    "city": "Hyderabad",
+    "admission_date": "2026-06-25",
+    "discharge_date": "2026-06-27",
+    "diagnosis": "Bypass surgery",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 41535.53
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 27913.74
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 65345.63
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 84974.6
+      }
+    ],
+    "total_amount": 219769.5,
+    "layout": "plain"
+  },
+  "bill_23.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Green Valley Hospital",
+    "city": "Chennai",
+    "admission_date": "2026-08-06",
+    "discharge_date": "2026-08-12",
+    "diagnosis": "Coronary artery disease",
+    "line_items": [
+      {
+        "description": "Nursing charges",
+        "amount": 127108.28
+      },
+      {
+        "description": "Room charges",
+        "amount": 106000.17
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 46512.62
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 79006.79
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 17931.39
+      }
+    ],
+    "total_amount": 376559.25,
+    "layout": "gst"
+  },
+  "bill_24.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Green Valley Hospital",
+    "city": "Chennai",
+    "admission_date": "2026-03-25",
+    "discharge_date": "2026-03-31",
+    "diagnosis": "Spinal fusion surgery",
+    "line_items": [
+      {
+        "description": "Laboratory tests",
+        "amount": 128178.22
+      },
+      {
+        "description": "Room charges",
+        "amount": 120927.52
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 134383.83
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 48815.71
+      },
+      {
+        "description": "Doctor consultation",
+        "amount": 61511.57
+      }
+    ],
+    "total_amount": 493816.85,
+    "layout": "table"
+  },
+  "bill_25.pdf": {
+    "patient_name": "Arjun Reddy",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-05-10",
+    "discharge_date": "2026-05-11",
+    "diagnosis": "Typhoid fever",
+    "line_items": [
+      {
+        "description": "Laboratory tests",
+        "amount": 2879.99
+      },
+      {
+        "description": "Room charges",
+        "amount": 2322.27
+      },
+      {
+        "description": "Doctor consultation",
+        "amount": 4781.56
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 2104.91
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 4582.34
+      }
+    ],
+    "total_amount": 16671.07,
+    "layout": "plain"
+  },
+  "bill_26.pdf": {
+    "patient_name": "Vikram Singh",
+    "hospital_name": "Green Valley Hospital",
+    "city": "Chennai",
+    "admission_date": "2026-02-08",
+    "discharge_date": "2026-02-13",
+    "diagnosis": "Coronary artery disease",
+    "line_items": [
+      {
+        "description": "Doctor consultation",
+        "amount": 75657.21
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 94623.26
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 61099.14
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 94875.3
+      },
+      {
+        "description": "Room charges",
+        "amount": 31023.0
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 17863.9
+      }
+    ],
+    "total_amount": 375141.81,
+    "layout": "gst"
+  },
+  "bill_27.pdf": {
+    "patient_name": "Vikram Singh",
+    "hospital_name": "Lotus Heart Institute",
+    "city": "Chennai",
+    "admission_date": "2026-06-21",
+    "discharge_date": "2026-06-25",
+    "diagnosis": "Appendectomy",
+    "line_items": [
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 27970.78
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 20808.88
+      },
+      {
+        "description": "Laboratory tests",
+        "amount": 38507.41
+      }
+    ],
+    "total_amount": 87287.07,
+    "layout": "table"
+  },
+  "bill_28.pdf": {
+    "patient_name": "Sneha Iyer",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-01-30",
+    "discharge_date": "2026-02-04",
+    "diagnosis": "Acute bronchitis",
+    "line_items": [
+      {
+        "description": "Procedure charges",
+        "amount": 8812.51
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 3814.4
+      },
+      {
+        "description": "Room charges",
+        "amount": 12644.56
+      }
+    ],
+    "total_amount": 25271.47,
+    "layout": "plain"
+  },
+  "bill_29.pdf": {
+    "patient_name": "Sneha Iyer",
+    "hospital_name": "City Care Clinic",
+    "city": "Bengaluru",
+    "admission_date": "2026-01-17",
+    "discharge_date": "2026-01-22",
+    "diagnosis": "Fracture of right radius",
+    "line_items": [
+      {
+        "description": "Laboratory tests",
+        "amount": 15075.19
+      },
+      {
+        "description": "Procedure charges",
+        "amount": 21493.18
+      },
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 17504.53
+      },
+      {
+        "description": "Room charges",
+        "amount": 32101.22
+      },
+      {
+        "description": "GST @ 5%",
+        "amount": 4308.71
+      }
+    ],
+    "total_amount": 90482.83,
+    "layout": "gst"
+  },
+  "bill_30.pdf": {
+    "patient_name": "Ravi Kumar",
+    "hospital_name": "Metro Lifeline Hospital",
+    "city": "Delhi",
+    "admission_date": "2026-01-08",
+    "discharge_date": "2026-01-11",
+    "diagnosis": "Asthma attack",
+    "line_items": [
+      {
+        "description": "Pharmacy and medicines",
+        "amount": 8035.27
+      },
+      {
+        "description": "Nursing charges",
+        "amount": 8540.34
+      },
+      {
+        "description": "Doctor consultation",
+        "amount": 15544.77
+      }
+    ],
+    "total_amount": 32120.38,
+    "layout": "table"
+  }
+}
