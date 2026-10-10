@@ -12,7 +12,8 @@ def create_app(config_class=Config):
 
     db.init_app(app)
     jwt.init_app(app)
-    CORS(app, origins=[app.config["FRONTEND_ORIGIN"]])
+    allowed_origins = [origin.strip() for origin in app.config["FRONTEND_ORIGIN"].split(",")]
+    CORS(app, origins=allowed_origins)
 
     from app import models
 
